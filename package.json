@@ -1,23 +1,27 @@
+
 {
   "name": "bananagame",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "dependencies": {
-    "express": "^4.16.3"
-  },
-  "devDependencies": {},
   "scripts": {
+    "start":"node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/varuj02/bananagame.git"
   },
-  "author": "",
+  "author": "Varuj",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/varuj02/bananagame/issues"
+    "url": "https://github.com/varuj02/bananagame.git/issues"
   },
-  "homepage": "https://github.com/varuj02/bananagame#readme"
+  "homepage": "https://github.com/varuj02/bananagame#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "engines": {
+    "node": "4.7.2"
+  }
 }

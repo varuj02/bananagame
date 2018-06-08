@@ -1,16 +1,15 @@
+
 var express = require('express');
+var path = require('path');
 var app = express();
-var server = require('http').Server(app);
 
-var port = process.env.PORT || 3000;
+// Define the port to run on
+app.set('port', process.env.PORT || 3000);
 
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/', function (req, res) {
-    res.sendFile(__dirname + '/public/index.html');
+// Listen for requests
+var server = app.listen(app.get('port'), function() {
+  var port = server.address().port;
+  console.log('Magic happens on port ' + port);
 });
-
-server.listen(port, function () {
-    console.log("Server is listening on port " + port);
-});
-
