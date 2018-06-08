@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/varuj02/bananagame/issues"
   },
-  "homepage": "https://github.com/varuj02/bananagame#readme"
+  "homepage": "https://github.com/varuj02/bananagame#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
