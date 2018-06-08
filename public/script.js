@@ -6,7 +6,7 @@ var player = { x: 0, y: (canvasHeight - 1) * side, score: 0, life: 5 }
 var interval = 100;// /FPS  sec
 var time = 0; //sec
 var FPS = 30;
-var playerStep = 5;
+var playerStep = 7;
 var bananaStep = 2;
 
 
