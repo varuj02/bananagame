@@ -18,10 +18,7 @@ lifeElem.innerText = "Life: 5"
 
 function setup() {
     createCanvas(canvasWidth * side, canvasHeight * side);
-    var BananaImg = loadImage("images/Banana.png");
-    var MonkeyImg = loadImage("https://pparnell83.deviantart.com/art/Monkey-Walking-245694104");
-    // var monkeyimg = CreateImg("https://www.freeiconspng.com/uploads/cute-monkey-png-17.png", test);
-    // monkeyimg.hide();
+
 }
 
 function draw() {
